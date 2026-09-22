@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Pricing from './pages/Pricing';
 import About from './pages/About';
 import FAQ from './pages/FAQ';
+import { Analytics } from '@vercel/analytics/react';
 
 export type Page = 'home' | 'pricing' | 'about' | 'faq' | 'dashboard';
 
@@ -276,6 +277,7 @@ export default function App() {
         </footer>
 
       </div>
+      <Analytics />
     </div>
   );
 }
