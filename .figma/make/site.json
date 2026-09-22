@@ -1,0 +1,10 @@
+{
+  "description": "This AI-powered Braille learning device offers independent, voice-driven education for users globally, enhancing accessibility and learning experiences.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
